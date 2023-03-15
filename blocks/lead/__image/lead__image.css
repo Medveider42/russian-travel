@@ -1,9 +1,23 @@
-.lead__image {
-  z-index: 1;
-  width:100%;
-  width: 320px;
-  min-height: 200px;
-  object-fit: cover;
+ .lead__image {
+  min-width: 320px;
+  max-width: 984px;
   overflow: hidden;
-  box-sizing: border-box;
+  object-fit: cover;
+  margin: 0;  
+  width:100%;
+ } 
+/*
+@media screen  and (min-width:769px) and (max-width: 1024px) {
+  .lead__image {
+    max-width:928px;
+    padding: 56px 5% 0 5%;
+    width: 90%;
+  }
+} */
+@media screen and (min-width:1025px) {
+  .lead__image {
+    padding: 0 12% 0 12%;
+    width: 76%;
+  }
 }
+*/

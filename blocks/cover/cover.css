@@ -1,7 +1,27 @@
 .cover {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  flex-wrap: wrap;
+  max-width: 1184px;
+  min-width: 320px;
   width: 100%;
+  margin-top: 92px;
   }
+
+  @media screen and (max-width:425px) {
+    .cover {
+      margin-top: 66px;
+
+    }
+  }
+
+  @media screen and (min-width:426px) and (max-width:728px) {
+    .cover {
+      margin-top: 90px;      
+    }
+  }
+
+  @media screen and (min-width:1000px) {
+    .cover {
+        width:92%;
+        padding: 0 4%;
+        margin: 0;
+    }
+} 

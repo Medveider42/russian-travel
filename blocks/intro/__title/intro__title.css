@@ -1,9 +1,40 @@
 .intro__title {
     font-style: normal;
     font-weight: 900;
-    font-size: 32px;
-    line-height: 109%;
+    font-size: 54px;
+    line-height: 107%;
     text-align: left;
-    padding: 0 16px 40px;
-    margin: 0;
+    margin-bottom: 40px;
+    margin-top: 92px;
+}
+
+@media screen and (max-width:425px) {
+    .intro__title {
+      font-size: 32px;
+      line-height: 109%;
+      padding: 0 5%;
+      width: 90%;
+      margin-top: 64px;      
+  }
+} 
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .intro__title {
+     max-width: 720px;    
+     padding-left: 3%;
+     width: 96%;
+     margin-top: 88px;
+  }
+}
+
+@media screen  and (min-width:769px) and (max-width: 1024px) {
+  .intro__title {
+      margin-left: 5%;
+      width: 90%;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .intro__title {
+    padding-left: 148px;
+  }
 }

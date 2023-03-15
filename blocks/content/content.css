@@ -1,0 +1,10 @@
+.content {
+    background-color:#2A2C2F;
+    color: white;
+    min-width: 320px;
+    max-width: 2560px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter';
+    width: 100%;
+}

@@ -10,19 +10,23 @@
 </head>
 
 <body class="page">
-   <main class="lead">
+   <main class="content">
      <header class="header">
     <img class="header__logo" src="./images/header-logo.svg" alt="карта России">
     <ul class="header__lang-links">
-    <li><a class="header__lang-link header__lang-link_active" href="#">Ru</a></li>
-    <li><a class="header__lang-link" href="#">En</a></li>
+    <li><a class="header__lang-link header__lang-link_active link-opacity" href="#">Ru</a></li>
+    <li><a class="header__lang-link link-opacity" href="#">En</a></li>
     </ul>
   </header>
+  <section class="lead">
     <h1 class="lead__title">Путешествия по России</h1>
     <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-    <img class="lead__image" src="./images/lead-polka.jpg" alt="нижняя полка плацкарта">
-    <p class="lead__caption">ваша полка — верхняя</p>
-    <div class="intro">
+    <figure class="lead__figure" >
+      <img class="lead__image" src="./images/lead-polka.jpg" alt="нижняя полка плацкарта">
+      <p class="lead__caption">ваша полка — верхняя</p>
+    </figure>
+  </section>
+    <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
       <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, 
         но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели?
@@ -31,27 +35,65 @@
         и проехала 20 тысяч километров по родной стране. Мы выбрали 
         и описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li><span>Часовых поясов</span> 11</li>
-        <li><span>Объектов природного наследия ЮНЕСКО</span> 12</li>
-        <li><span>Объектов культурного наследия ЮНЕСКО</span> 16</li>
-        <li><span>Природных заповедников 105</li>
-        <li><span>Аэропортов</span> 241</li>
+        <li><span class="intro__list__span-accent">Часовых поясов <span>11 </span></li>
+        <li><span class="intro__list__span-accent">Объектов природного наследия ЮНЕСКО </span>12</li>
+        <li><span class="intro__list__span-accent">Объектов культурного наследия ЮНЕСКО </span> 16</li>
+        <li><span class="intro__list__span-accent">Природных заповедников</span> 105</li>
+        <li><span class="intro__list__span-accent">Аэропортов</span> 241</li>
       </ul>  
-    
-    </div>
+    </section>
+    <section class="photo-grid">
+      <img src="./images/photo-grid-train.jpg" class="photo-grid__item" alt "вид из окна поезда">
+      <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt "вид на горы сверху">
+      <img src="./images/photo-grid-tuman.jpg" class="photo-grid__item" alt "собака на сене">
+      <img src="./images/photo-grid-sochi.jpg" class="photo-grid__item" alt "туманные горы сочи">
+      <img src="./images/photo-grid-arisa.jpg" class="photo-grid__item" alt "замерзший байкал">      
+      <img src="./images/photo-grid-baikal.jpg" class="photo-grid__item" alt "летний берег байкала">
+      <img src="./images/photo-grid-elbrus.jpg" class="photo-grid__item" alt "эльбрус">
+      <img src="./images/photo-grid-kondratiev.jpg" class="photo-grid__item" alt "знак пешеходного перехода">
+      <img src="./images/photo-grid-kamchatka-1.jpg" class="photo-grid__item" alt "камчатка в тумане">
+      <img src="./images/photo-grid-kamchatka-2.jpg" class="photo-grid__item" alt "камчатка на закате">
+      <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt "байкал зимой">
+      <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__item" alt "ергаки">     
+    </section>
+    <section class="places">
+      <article class="place">
+        <div class="place__links">
+      <h3 class="place__title">Куршская коса</h3>
+      <p class="place__url-heading">URL</p>      
+      <p class="place__website"><a class="place__link link-opacity" target="_blank" href="http://park-kosa.ru">park-kosa.ru</a></p>
+      </div> 
+      <!-- <img src="./images/place-kosa.jpg" class="place__image" alt="куршская коса"> -->
+      <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта — спокойного Куршского залива с одной стороны
+         и подёрнутого рябью волн Балтийского моря с другой.
+         Уникальная природная зона на краю российского анклава.</p>
+      <p class="place__paragraph">На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России,
+         Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие
+        природы и запах стального, прохладного моря.</p>
+      </article>
 
-    <div class="cover cover__background">
-        <h2 class="cover__title">
-          <a target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a>
-        </h2>
+
+    </section>
+
+    <section class="cover">
+      <a class="cover__background" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+        <h2 class="cover__title">До Байкала «на собаках»</h2> 
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-    </div>
+      </a>
+      </section>
 </main>
 
-  <footer>
-
+  <footer class="footer">
+    <nav>
+      <ul class="footer__links">
+        <li class="footer__link link-opacity" a target="_blank" href="https://yandex.ru/maps">Карты</a></li>
+        <li class="footer__link link-opacity" a target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
+        <li class="footer__link link-opacity" a target="_blank" href="https://rasp.yandex.ru">Расписание</a></li>
+        <li class="footer__link link-opacity" a target="_blank" href="https://calendar.yandex.ru">Календарь</a></li>
+        <li class="footer__link link-opacity" a target="_blank" href="https://travel.yandex.ru">Путешествие</a></li>
+    </ul>
+  </nav>
+    <p class="footer__copyright">&copy;2020. Медведева Марина</p>
 </footer>
-
 </body>
-
 </html>
