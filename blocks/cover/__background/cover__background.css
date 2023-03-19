@@ -13,7 +13,8 @@
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    width:100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 .cover__background:before {

@@ -1,5 +1,5 @@
 .footer {
-    font-family: 'Inter';
+    font-family: 'Inter', 'Arial', sans-serif;
     background-color:#2A2C2F;
     color:white;
     display: flex;
@@ -19,7 +19,7 @@
     }
   }
   
-  @media screen and (min-width:570px) and (max-width: 768px){
+  @media screen and (min-width:570px) and (max-width: 768px) {
     .footer {
         padding: 88px 3% 24px 3%;
         width: 94%;

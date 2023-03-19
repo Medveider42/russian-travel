@@ -3,21 +3,24 @@
   max-width: 984px;
   overflow: hidden;
   object-fit: cover;
-  margin: 0;  
-  width:100%;
+  margin: 0;
  } 
-/*
-@media screen  and (min-width:769px) and (max-width: 1024px) {
+
+ @media screen and (max-width:425px){
   .lead__image {
-    max-width:928px;
-    padding: 56px 5% 0 5%;
-    width: 90%;
+    padding-top: 40px;
   }
-} */
+ }
+
+ @media screen and (min-width:426px) and (max-width:768px) {
+  .lead__image {
+    padding-top: 56px;
+  }
+} 
+
 @media screen and (min-width:1025px) {
   .lead__image {
-    padding: 0 12% 0 12%;
-    width: 76%;
+    padding: 0 12%;
+    width: 77%;
   }
 }
-*/
