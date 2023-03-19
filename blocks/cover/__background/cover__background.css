@@ -24,7 +24,7 @@
     z-index: -1;
     position: absolute;
     opacity: .3;
-    background: #2A2C2F;;
+    background: #2A2C2F;
     transition: opacity 0.3s ease-in-out;
 }
 
