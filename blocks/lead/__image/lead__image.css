@@ -1,26 +1,11 @@
  .lead__image {
-  min-width: 320px;
-  max-width: 984px;
-  overflow: hidden;
   object-fit: cover;
   margin: 0;
+  width: 100%;
  } 
 
- @media screen and (max-width:425px){
+ @media screen and (max-width: 425px){
   .lead__image {
     padding-top: 40px;
   }
  }
-
- @media screen and (min-width:426px) and (max-width:768px) {
-  .lead__image {
-    padding-top: 56px;
-  }
-} 
-
-@media screen and (min-width:1025px) {
-  .lead__image {
-    padding: 0 12%;
-    width: 77%;
-  }
-}

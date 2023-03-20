@@ -2,8 +2,36 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  min-width: 288px;
-  max-width: 984px;
+  justify-content: flex-start;
+  max-width: 928px;
   font-family: 'Inter', 'Arial', sans-serif;
+  align-self: flex-start;
+  padding: 0 5%;
+  width: 100%;
+  }
+
+    @media screen and (max-width: 425px) {
+    .intro {
+      max-width: 288px;      
+    }
+  }
+
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .intro {       
+      padding: 0 3%;
+      width: 88%;
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .intro {      
+      padding-left: 12%;      
+    }
+  }
+
+  @media screen and (min-width: 1281px) {
+    .intro {
+      align-self: center;
+      padding-left: 0;
+    }
   }

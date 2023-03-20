@@ -13,7 +13,6 @@
     .places {
         row-gap: 50px;
         padding: 64px 5% 0 5%;
-        padding-top: 64px;
         width:90%;
         align-items: flex-start;
     }
@@ -25,13 +24,13 @@
     }
 }
 
-@media screen and (min-width:769px) and (max-width:1250px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
     .places {
         padding: 0 5%;
     }
 }
 
-@media screen and (min-width:1251px) {
+@media screen and (min-width: 1025px) {
     .places {
         padding: 0 12%;
     }

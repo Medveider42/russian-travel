@@ -14,20 +14,12 @@
 
   @media screen and (min-width:426px) and (max-width:800px) {
     .cover {
-      margin-top: 90px;      
+      margin-top: 90px;
     }
   }
 
-  @media screen {
+ @media screen and (min-width: 1025px) {
     .cover {
-      width: 100%;
-    }
+    padding: 0 4%;
   }
-
-  @media screen and (min-width:1250px) {
-    .cover {
-        width:92%;
-        padding: 0 4%;
-        margin-top: 92px;
-    }
 } 

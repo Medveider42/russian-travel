@@ -12,30 +12,12 @@
     .intro__title {
       font-size: 32px;
       line-height: 1.09;
-      padding: 0 5%;
-      width: 70%;
       margin-top: 64px;
-      max-width: 288px;
+      width: 80%;
   }
 } 
 @media screen and (min-width: 426px) and (max-width: 768px) {
   .intro__title {
-     max-width: 720px;
-     padding-left: 3%;
-     width: 96%;
-     margin-top: 88px;
-  }
-}
-
-@media screen  and (min-width:769px) and (max-width: 1024px) {
-  .intro__title {
-      margin-left: 5%;
-      width: 90%;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  .intro__title {
-    padding-left: 148px;
+    margin-top: 88px;
   }
 }
