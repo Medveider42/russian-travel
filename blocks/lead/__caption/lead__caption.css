@@ -11,13 +11,13 @@
   margin:0;
 }
 
-@media screen and (max-width:425px) {
+@media screen and (max-width:450px) {
   .lead__caption {
     padding-left: 5%;
   }
 }
 
-@media screen and (min-width:426px) and (max-width:768px) {
+@media screen and (min-width:451px) and (max-width:768px) {
   .lead__caption {
     padding-left: 3%;
   }

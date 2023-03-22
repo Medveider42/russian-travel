@@ -2,9 +2,10 @@
   object-fit: cover;
   margin: 0;
   width: 100%;
+  max-width: 984px;
  } 
 
- @media screen and (max-width: 425px){
+ @media screen and (max-width: 767px){
   .lead__image {
     padding-top: 40px;
   }

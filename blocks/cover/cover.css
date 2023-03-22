@@ -17,9 +17,3 @@
       margin-top: 90px;
     }
   }
-
- @media screen and (min-width: 1025px) {
-    .cover {
-    padding: 0 4%;
-  }
-} 

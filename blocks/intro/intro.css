@@ -1,37 +1,27 @@
 .intro {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  max-width: 928px;
-  font-family: 'Inter', 'Arial', sans-serif;
-  align-self: flex-start;
-  padding: 0 5%;
   width: 100%;
+  max-width: 984px;
+  min-width: 288px;
   }
 
-    @media screen and (max-width: 425px) {
+  @media screen and (max-width: 450px) {
     .intro {
-      max-width: 288px;      
+      width: 90%;
+      padding: 0 5%;
     }
   }
 
-  @media screen and (min-width: 426px) and (max-width: 768px) {
-    .intro {       
+  @media screen and (min-width: 450px) and (max-width: 768px) {
+    .intro {
       padding: 0 3%;
-      width: 88%;
+      width: 94%;
+      max-width: 720px;
     }
   }
 
-  @media screen and (min-width: 1025px) and (max-width: 1280px) {
-    .intro {      
-      padding-left: 12%;      
-    }
-  }
-
-  @media screen and (min-width: 1281px) {
+  @media screen and (min-width: 768px) and (max-width: 1024px) {
     .intro {
-      align-self: center;
-      padding-left: 0;
+      padding: 0 5%;
+      width: 90%; 
     }
   }

@@ -4,18 +4,20 @@
     height: 213px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 450px) {
     .photo-grid__item {
-        height: 216px;
+        height: 216px;        
+        object-fit: fill;
     }
     
 }
 
-@media screen and (min-width: 426px) and (max-width:768px) {
+@media screen and (min-width: 451px) and (max-width: 768px) {
     .photo-grid__item {
-        height: 264px;
+        height: 264px;        
     }    
 }
+
 @media screen and (min-width: 769px) and (max-width: 1024px) {
     .photo-grid__item {
         height: 225px;

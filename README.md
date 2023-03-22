@@ -11,4 +11,4 @@
 
 ****
 
-Ссылка на проект: https://github.com/Medveider42/russian-travel.git
+Ссылка на проект: https://medveider42.github.io/russian-travel/
