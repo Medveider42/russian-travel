@@ -9,17 +9,17 @@
     margin: 0;
 }
 
+@media screen and (max-width: 768px) {
+    .places {
+        row-gap: 73px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .places {
         row-gap: 50px;
         padding: 64px 5% 0 5%;
         width:90%;
         align-items: flex-start;
-    }
-}
-
-@media screen and (min-width: 451px) and (max-width: 768px) {
-    .places {
-        row-gap: 73px;
     }
 }

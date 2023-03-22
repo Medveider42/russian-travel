@@ -6,14 +6,13 @@
   font-family: 'Inter', 'Arial', sans-serif;
   }
 
+  @media screen and (max-width:800px) {
+    .cover {
+      margin-top: 90px;
+    }
+  }
   @media screen and (max-width:425px) {
     .cover {
       margin-top: 66px;
-    }
-  }
-
-  @media screen and (min-width:426px) and (max-width:800px) {
-    .cover {
-      margin-top: 90px;
     }
   }

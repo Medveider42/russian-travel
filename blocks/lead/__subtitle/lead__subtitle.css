@@ -6,8 +6,19 @@
   text-align: center;
   margin:0;
   max-width: 640px;
-  padding-bottom: 56px;
-  
+  padding-bottom: 56px;  
+}
+
+@media screen and (min-width: 1025px) {
+  .lead__subtitle {
+    padding-bottom: 64px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__subtitle {
+    padding: 0 3%;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -18,16 +29,4 @@
     width: 90%;
     max-width:288px;
   }
-}
-
-@media screen and (min-width: 450px) and (max-width: 768px) {
-  .lead__subtitle {
-    padding: 0 3%;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-    .lead__subtitle {
-      padding-bottom: 64px;
-    }
 }
